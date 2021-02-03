@@ -1,6 +1,7 @@
 const h1 = document.querySelector("h1");
 const h2 = document.querySelector("h2");
-const input = document.querySelectorAll("input");
+const input = document.querySelector("input")
+const btn = document.querySelectorAll("button");
 
 const text = [
   "あ", "い", "う", "え", "お",
@@ -28,9 +29,9 @@ const text2 = [
   "와",
 ];
 
-input[1].addEventListener("click", e => {
+btn[0].addEventListener("click", e => {
   e.preventDefault();
-  const va = input[0].value;
+  const va = input.value;
   for(let i = 0; i<text.length; i++){
     switch(va){
       case text[i]:
@@ -39,10 +40,10 @@ input[1].addEventListener("click", e => {
       break;
      }
   };
-  input[0].value = "";
+  input.value = "";
 });
 
-input[2].addEventListener('click',e=>{
+btn[1].addEventListener('click',e=>{
   e.preventDefault();
   h2.textContent=""
   h2.classList.remove('h2');
