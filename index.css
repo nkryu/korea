@@ -1,0 +1,43 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  text-align: center;
+}
+h1{
+  font-size: 2rem;
+}
+p{
+  font-weight: bold;
+  font-size: 25px;
+}
+form{
+  margin: 20px 0;
+}
+input{
+  padding: 5px;
+  margin-right: 5px;
+}
+input:nth-of-type(2),input:nth-of-type(3){
+  background-color: rgb(117, 142, 255);
+  color: #eee;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 5px rgb(43, 44, 46);
+}
+input:nth-of-type(2):hover,input:nth-of-type(3):hover{
+  opacity: 0.8;
+}
+input:nth-of-type(2):active, input:nth-of-type(3):active{
+  box-shadow: none;
+  position: relative;;
+  top: 5px;
+}
+.h2{
+  width: 50%;
+  margin: 0 auto;
+  font-size: 30px;
+  border: 1px solid #000;
+}
