@@ -27,14 +27,7 @@ input:nth-of-type(2),input:nth-of-type(3){
   border-radius: 3px;
   box-shadow: 0 5px rgb(43, 44, 46);
 }
-input:nth-of-type(2):hover,input:nth-of-type(3):hover{
-  opacity: 0.8;
-}
-input:nth-of-type(2):active, input:nth-of-type(3):active{
-  box-shadow: none;
-  position: relative;;
-  top: 5px;
-}
+
 .h2{
   width: 50%;
   margin: 0 auto;
